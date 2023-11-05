@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.min.css">
+    <script src="./fontawesome-free-6.4.2-web/js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>cart</title>
+</head>
+<body class="bg-dark-subtle">
+    <nav class="navbar navbar-expand bg-info fixed-top">
+        <div class="container-fluid">
+        <div class="header">
+            <a  id="logo" class="navbar-brand fw-bold">AMOX</a>
+        </div>
+            <button type="button" class="btn navbar-toggler " data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+             <div class="nav-justified collapse navbar-collapse">
+                 <ul  class="navbar-nav" id="menu">
+                     <!-- <li class="navbar-item">
+                         <a href="#" class="nav-link">Home</a>
+                     </li> -->
+                     <!-- <li class="navbar-item">
+                         <a href="#" class="nav-link">Product</a>
+                     </li>
+                     <li class="navbar-item">
+                         <a href="#" class="nav-link"><input type="text" class="form-control" id="search"></a>
+                     </li>
+                     <li class="navbar-item">
+                         <a href="#" class="nav-link"><input type="submit" class="btn btn-primary" id="search_btn"></a>
+                     </li> -->
+                 </ul>
+                 
+             </div>
+             <ul class="nav navbar-nav end-0">
+                <li class="nav-item " id="cartbutton">
+                    <a  class="nav-link" ><i class="fa-solid fa-cart-shopping"></i></a>
+                    <div id="count">
+                        <span id="coun"></span>
+                    </div>
+                </li>
+                
+        
+    </div>
+    </nav>
+<br>
+<br>
+<br>
+    <nav class="sub-nav bg-info">
+        <ul class="col-12">
+            <li  class="col-11">
+                <a href="#hoodiepage"><i class="fa-brands fa-hooli"></i></a>
+            </li>
+            <li class="col-11">
+                <a href="#Shirtpage"><i class="fa-solid fa-shirt"></i></a>
+            </li>
+            <li class="col-11">
+                <a href="#glasspage"><i class="fa-solid fa-glasses"></i></a>
+            </li>
+            <li class="col-11">
+                <a href="#hatpage"><i class="fa-brands fa-redhat"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    
+            
+    <h2 class="text-center  text-uppercase text-primary-emphasis " id="hoodiepage">hoodies</h2>
+    <center>
+    <div class="image col-10 ">
+        <img src="./img/hoodies.png" alt="hoodie pics " class="col-12">
+    </div>
+ </center>
+    <div class="main d-flex col-12 ">
+        
+    <div class="container shadow bg-secondary col-10 justify-content-center">
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <div>
+        <h2 class="text-info text-center text-uppercase fw-bolder">shop</h2>
+        <div class="twin d-lg-flex d-sm-block justify-content-center">
+        <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2" id="card1">
+            <div class="card_body bg-body-tertiary rounded-4">
+                <div class="card_img border rounded-4 border-bottom-3 ">
+                    <img src="./img/1.png" alt="" id="" class=" col-12 rounded-4" style="height: 250px;">
+                </div>
+                <div class="card_title text-primary fw-bold m-2">
+                    <h2>Black Hoodie</h2>
+                </div>
+                <div class="card-text fw-bold m-2">$14000</div>
+                <div class="card-text m-2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing el
+                </div>
+                <br>
+                <!-- <input type="number"  class="inp1" > -->
+            
+                <br>
+                <div class="button">
+                <button type="button" id="btn1" class="btn btn-primary m-2">Add to cart</button>
+                <button type="button" id="ebtn1" class="btn btn-close btn-danger text-dark m-2"></button>
+                </div>
+
+            </div>
+        </div>
+    
+        
+        <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2">
+            <div class="card_body bg-body-tertiary rounded-4">
+                <div class="card_img border rounded-4 border-bottom-3 ">
+                    <img src="./img/2.png" alt=""  style="height: 250px;" class="col-12 rounded-4">
+                </div>
+                <div class="card_title text-primary fw-bold m-2">
+                    <h2>White Hoodie</h2>
+                </div>
+                <div class="card-text fw-bold m-2">$14500</div>
+                <div class="card-text m-2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing el
+                    
+                </div>
+                
+            
+                <br>
+                <div class="button">
+                <button type="button" id="btn2" class="btn btn-primary m-2">Add to cart</button>
+                <button type="button" id="ebtn2" class="btn btn-close btn-danger text-dark m-2"></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+        <div class="twin  d-lg-flex d-sm-block justify-content-center">
+        <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2" id="card1">
+            <div class="card_body bg-body-tertiary rounded-4">
+                <div class="card_img border rounded-4 border-bottom-3 ">
+                    <img src="./img/3.png" alt="" id="" class=" col-12 rounded-4" style="height: 250px;">
+                </div>
+                <div class="card_title text-primary fw-bold m-2">
+                    <h2>Gray Hoodie</h2>
+                </div>
+                <div class="card-text fw-bold m-2">$12000</div>
+                <div class="card-text m-2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing el
+                </div>
+                
+                
+                <br>
+                <div class="button">
+                <button type="button" id="btn3" class="btn btn-primary m-2">Add to cart</button>
+                <button type="button" id="ebtn3" class="btn btn-close btn-danger text-dark m-2"></button>
+                </div>
+            </div>
+        </div>
+    
+        
+        <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2">
+            <div class="card_body bg-body-tertiary rounded-4">
+                <div class="card_img border rounded-4 border-bottom-3 ">
+                    <img src="./img/4.png" alt=""  class="col-12 rounded-4" style="height: 250px;">
+                </div>
+                <div class="card_title text-primary fw-bold m-2">
+                    <h2>Red Hoodie</h2>
+                </div>
+                <div class="card-text fw-bold m-2">$12500</div>
+                <div class="card-text m-2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing el
+                    
+                </div>
+                
+                
+                <br>
+                <div class="button">
+                <button type="button" id="btn4" class="btn btn-primary m-2">Add to cart</button>
+                <button type="button" id="ebtn4" class="btn btn-close btn-danger text-dark m-2"></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+        <div class="twin  d-lg-flex d-sm-block justify-content-center">
+        <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2" id="card1">
+            <div class="card_body bg-body-tertiary rounded-4">
+                <div class="card_img border rounded-4 border-bottom-3 ">
+                    <img src="./img/5.png" alt="" id="" class=" col-12 rounded-4" style="height: 250px;">
+                </div>
+                <div class="card_title text-primary fw-bold m-2">
+                    <h2>Green Hoodie</h2>
+                </div>
+                <div class="card-text fw-bold m-2">$20000</div>
+                <div class="card-text m-2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing el
+                </div>
+                
+                
+                <br>
+                <div class="button">
+                <button type="button" id="btn5" class="btn btn-primary m-2">Add to cart</button>
+                <button type="button" id="ebtn5" class="btn btn-close btn-danger text-dark m-2"></button>
+                </div>
+            </div>
+        </div>
+    
+        
+        <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2">
+            <div class="card_body bg-body-tertiary rounded-4">
+                <div class="card_img border rounded-4 border-bottom-3 ">
+                    <img src="./img/6.png" alt=""  class="col-12 rounded-4" style="height: 250px;">
+                </div>
+                <div class="card_title text-primary fw-bold m-2">
+                    <h2>Navy Hoodie</h2>
+                </div>
+                <div class="card-text fw-bold m-2">$17000</div>
+                <div class="card-text m-2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing el
+                   
+                    
+                </div>
+                <br>
+                
+                <br>
+                <div class="button">
+                <button type="button" id="btn6" class="btn btn-primary m-2">Add to cart</button>
+                <button type="button" id="ebtn6" class="btn btn-close btn-danger text-dark m-2"></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2 class="text-center  text-uppercase text-primary-emphasis" id="Shirtpage">Shirts</h2>
+    <center>
+    <div class="image col-12 ">
+        <img src="./img/pexels-david-bartus-297933.jpg" alt="Shirt pics " class="col-12">
+    </div>
+ </center>
+ <div class="twin d-lg-flex d-sm-block justify-content-center">
+    <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2" id="card7">
+        <div class="card_body bg-body-tertiary rounded-4">
+            <div class="card_img border rounded-4 border-bottom-3 ">
+                <img src="./img/black polo.jpg" alt="" id="" class=" col-12 rounded-4" style="height: 250px;">
+            </div>
+            <div class="card_title text-primary fw-bold m-2">
+                <h2>Black Polo</h2>
+            </div>
+            <div class="card-text fw-bold m-2">$4500</div>
+            <div class="card-text m-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+            </div>
+            <br>
+            <!-- <input type="number"  class="inp1" > -->
+            
+            <br>
+            <div class="button">
+            <button type="button" id="btn7" class="btn btn-primary m-2">Add to cart</button>
+            <button type="button" id="ebtn7" class="btn btn-close btn-danger text-dark m-2"></button>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2">
+        <div class="card_body bg-body-tertiary rounded-4">
+            <div class="card_img border rounded-4 border-bottom-3 ">
+                <img src="./img/white polo.jpg" alt="" 
+             class="col-12 rounded-4" style="height: 250px;">
+            </div>
+            <div class="card_title text-primary fw-bold m-2">
+                <h2>White Polo</h2>
+            </div>
+            <div class="card-text fw-bold m-2">$4700</div>
+            <div class="card-text m-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+               
+            </div>
+            
+        
+            <br>
+            <div class="button">
+            <button type="button" id="btn8" class="btn btn-primary m-2">Add to cart</button>
+            <button type="button" id="ebtn8" class="btn btn-close btn-danger text-dark m-2"></button>
+            </div>
+
+        </div>
+    </div>
+</div>
+ <div class="twin d-lg-flex d-sm-block justify-content-center">
+    <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2" id="card9">
+        <div class="card_body bg-body-tertiary rounded-4">
+            <div class="card_img border rounded-4 border-bottom-3 ">
+                <img src="./img/chech.jpeg" alt="" id="" class=" col-12 rounded-4" style="height: 250px;">
+            </div>
+            <div class="card_title text-primary fw-bold m-2">
+                <h2>Check long Sleeve Shirt</h2>
+            </div>
+            <div class="card-text fw-bold m-2">$5200</div>
+            <div class="card-text m-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+            </div>
+            <br>
+            <!-- <input type="number"  class="inp1" > -->
+            
+            <br>
+            <div class="button">
+            <button type="button" id="btn9" class="btn btn-primary m-2">Add to cart</button>
+            <button type="button" id="ebtn9" class="btn btn-close btn-danger text-dark m-2"></button>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2">
+        <div class="card_body bg-body-tertiary rounded-4">
+            <div class="card_img border rounded-4 border-bottom-3 ">
+                <img src="./img/strip long sleeve.jpeg" alt=""  class="col-12 rounded-4" style="height: 250px;">
+            </div>
+            <div class="card_title text-primary fw-bold m-2">
+                <h2>Strip Long Sleeve Shirt</h2>
+            </div>
+            <div class="card-text fw-bold m-2">$20000</div>
+            <div class="card-text m-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+                
+            </div>
+            
+        
+            <br>
+            <div class="button">
+            <button type="button" id="btn10" class="btn btn-primary m-2">Add to cart</button>
+            <button type="button" id="ebtn10" class="btn btn-close btn-danger text-dark m-2"></button>
+            </div>
+
+        </div>
+    </div>
+</div>
+ <div class="twin d-lg-flex d-sm-block justify-content-center">
+    <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2" id="card9">
+        <div class="card_body bg-body-tertiary rounded-4">
+            <div class="card_img border rounded-4 border-bottom-3 ">
+                <img src="./img/navy polo.jpg" alt="" id="" class=" col-12 rounded-4" style="height: 250px;">
+            </div>
+            <div class="card_title text-primary fw-bold m-2">
+                <h2>Navy Polo</h2>
+            </div>
+            <div class="card-text fw-bold m-2">$4500</div>
+            <div class="card-text m-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+            </div>
+            <br>
+            <!-- <input type="number"  class="inp1" > -->
+            
+            <br>
+            <div class="button">
+            <button type="button" id="btn11" class="btn btn-primary m-2">Add to cart</button>
+            <button type="button" id="ebtn11" class="btn btn-close btn-danger text-dark m-2"></button>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2">
+        <div class="card_body bg-body-tertiary rounded-4">
+            <div class="card_img border rounded-4 border-bottom-3 ">
+                <img src="./img/white long sleeve.jpeg" alt=""  class="col-12 rounded-4" style="height: 250px;">
+            </div>
+            <div class="card_title text-primary fw-bold m-2">
+                <h2>White Long Sleeve</h2>
+            </div>
+            <div class="card-text fw-bold m-2">$25000</div>
+            <div class="card-text m-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+
+            </div>
+            
+        
+            <br>
+            <div class="button">
+            <button type="button" id="btn12" class="btn btn-primary m-2">Add to cart</button>
+            <button type="button" id="ebtn12" class="btn btn-close btn-danger text-dark m-2"></button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<h2 class="text-center  text-uppercase text-primary-emphasis" id="glasspage">Glasses</h2>
+<center>
+    <div class="image col-12 ">
+        <img src="./img/shade open.jpeg" alt="glass pics " class="col-12">
+    </div>
+ </center>
+ <div class="twin d-lg-flex d-sm-block justify-content-center">
+    <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2" id="card9">
+        <div class="card_body bg-body-tertiary rounded-4">
+            <div class="card_img border rounded-4 border-bottom-3 ">
+                <img src="./img/dark shade.jpg" alt="" id="" class=" col-12 rounded-4" style="height: 250px;">
+            </div>
+            <div class="card_title text-primary fw-bold m-2">
+                <h2>Dark Shade</h2>
+            </div>
+            <div class="card-text fw-bold m-2">$200</div>
+            <div class="card-text m-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+            </div>
+            <br>
+            <!-- <input type="number"  class="inp1" > -->
+            
+            <br>
+            <div class="button">
+            <button type="button" id="btn13" class="btn btn-primary m-2">Add to cart</button>
+            <button type="button" id="ebtn13" class="btn btn-close btn-danger text-dark m-2"></button>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2">
+        <div class="card_body bg-body-tertiary rounded-4">
+            <div class="card_img border rounded-4 border-bottom-3 ">
+                <img src="./img/pink pilot shade.webp" alt=""  class="col-12 rounded-4" style="height: 250px;">
+            </div>
+            <div class="card_title text-primary fw-bold m-2">
+                <h2>Pink Pilot Shade</h2>
+            </div>
+            <div class="card-text fw-bold m-2">$350</div>
+            <div class="card-text m-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+                
+            </div>
+            
+        
+            <br>
+            <div class="button">
+            <button type="button" id="btn14" class="btn btn-primary m-2">Add to cart</button>
+            <button type="button" id="ebtn14" class="btn btn-close btn-danger text-dark m-2"></button>
+            </div>
+
+        </div>
+    </div>
+</div>
+ <div class="twin d-lg-flex d-sm-block justify-content-center">
+    <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2" id="card9">
+        <div class="card_body bg-body-tertiary rounded-4">
+            <div class="card_img border rounded-4 border-bottom-3 ">
+                <img src="./img/ravin shade.jpeg" alt="" id="" class=" col-12 rounded-4" style="height: 250px;">
+            </div>
+            <div class="card_title text-primary fw-bold m-2">
+                <h2>Ravin Shade</h2>
+            </div>
+            <div class="card-text fw-bold m-2">$4000</div>
+            <div class="card-text m-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+            </div>
+            <br>
+            <!-- <input type="number"  class="inp1" > -->
+            
+            <br>
+            <div class="button">
+            <button type="button" id="btn15" class="btn btn-primary m-2">Add to cart</button>
+            <button type="button" id="ebtn15" class="btn btn-close btn-danger text-dark m-2"></button>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2">
+        <div class="card_body bg-body-tertiary rounded-4">
+            <div class="card_img border rounded-4 border-bottom-3 ">
+                <img src="./img/round shade.webp" alt=""  class="col-12 rounded-4" style="height: 250px;">
+            </div>
+            <div class="card_title text-primary fw-bold m-2">
+                <h2>Round Shade</h2>
+            </div>
+            <div class="card-text fw-bold m-2">$500</div>
+            <div class="card-text m-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+               
+            </div>
+            
+        
+            <br>
+            <div class="button">
+            <button type="button" id="btn16" class="btn btn-primary m-2">Add to cart</button>
+            <button type="button" id="ebtn16" class="btn btn-close btn-danger text-dark m-2"></button>
+            </div>
+
+        </div>
+    </div>
+</div>
+ <div class="twin d-lg-flex d-sm-block justify-content-center">
+    <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2" id="card9">
+        <div class="card_body bg-body-tertiary rounded-4">
+            <div class="card_img border rounded-4 border-bottom-3 ">
+                <img src="./img/unisex summer shade.jpeg" alt="" id="" class=" col-12 rounded-4" style="height: 250px;">
+            </div>
+            <div class="card_title text-primary fw-bold m-2">
+                <h2>Unisex Summer Shade</h2>
+            </div>
+            <div class="card-text fw-bold m-2">$200</div>
+            <div class="card-text m-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+            </div>
+            <br>
+            <!-- <input type="number"  class="inp1" > -->
+            
+            <br>
+            <div class="button">
+            <button type="button" id="btn17" class="btn btn-primary m-2">Add to cart</button>
+            <button type="button" id="ebtn17" class="btn btn-close btn-danger text-dark m-2"></button>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <div class="card col-lg-5  col-sm-9  rounded-4 m-2 bg-secondary border-secondary">
+        <!-- <div class="card_body bg-body-tertiary rounded-4">
+            <div class="card_img border rounded-4 border-bottom-3 ">
+                <img src="./img/round shade.webp" alt="" style="height: 185px;" class="col-12 rounded-4">
+            </div>
+            <div class="card_title text-primary fw-bold m-2">
+                <h2>Round Shade</h2>
+            </div>
+            <div class="card-text fw-bold m-2">$500</div>
+            <div class="card-text m-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+            </div>
+            
+        
+            <br>
+            <button type="button" id="btn16" class="btn btn-primary m-2">Add to cart</button>
+            <button type="button" id="ebtn16" class="btn btn-close btn-danger text-dark m-2"></button>
+
+
+        </div> -->
+    </div>
+</div>
+<h2 class="text-center  text-uppercase text-primary-emphasis" id="hatpage">Hat</h2>
+<center>
+    <div class="image col-12 ">
+        <img src="./img/hat open.jpeg" alt="hat pics " class="col-12">
+    </div>
+ </center>
+ <div class="twin d-lg-flex d-sm-block justify-content-center">
+    <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2" id="card9">
+        <div class="card_body bg-body-tertiary rounded-4">
+            <div class="card_img border rounded-4 border-bottom-3 ">
+                <img src="./img/beanie.jpg" alt="" id="" class=" col-12 rounded-4" style="height: 250px;">
+            </div>
+            <div class="card_title text-primary fw-bold m-2">
+                <h2>Beanie</h2>
+            </div>
+            <div class="card-text fw-bold m-2">$1500</div>
+            <div class="card-text m-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+            </div>
+            <br>
+            <!-- <input type="number"  class="inp1" > -->
+            
+            <br>
+            <div class="button">
+            <button type="button" id="btn18" class="btn btn-primary m-2">Add to cart</button>
+            <button type="button" id="ebtn18" class="btn btn-close btn-danger text-dark m-2"></button>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2">
+        <div class="card_body bg-body-tertiary rounded-4">
+            <div class="card_img border rounded-4 border-bottom-3 ">
+                <img src="./img/bucket hat.jpg" alt=""  class="col-12 rounded-4" style="height: 250px;">
+            </div>
+            <div class="card_title text-primary fw-bold m-2">
+                <h2>Bucket Hat</h2>
+            </div>
+            <div class="card-text fw-bold m-2">$1100</div>
+            <div class="card-text m-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+                
+            </div>
+            
+        
+            <br>
+            <div class="button">
+            <button type="button" id="btn19" class="btn btn-primary m-2">Add to cart</button>
+            <button type="button" id="ebtn19" class="btn btn-close btn-danger text-dark m-2"></button>
+            </div>
+
+        </div>
+    </div>
+</div>
+ <div class="twin d-lg-flex d-sm-block justify-content-center">
+    <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2" id="card9">
+        <div class="card_body bg-body-tertiary rounded-4">
+            <div class="card_img border rounded-4 border-bottom-3 ">
+                <img src="./img/christmas hat.jpg" alt="" id="" class=" col-12 rounded-4" style="height: 250px;">
+            </div>
+            <div class="card_title text-primary fw-bold m-2">
+                <h2>Christmas Hat</h2>
+            </div>
+            <div class="card-text fw-bold m-2">$50</div>
+            <div class="card-text m-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+            </div>
+            <br>
+            <!-- <input type="number"  class="inp1" > -->
+            
+            <br>
+            <div class="button">
+            <button type="button" id="btn20" class="btn btn-primary m-2">Add to cart</button>
+            <button type="button" id="ebtn20" class="btn btn-close btn-danger text-dark m-2"></button>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <div class="card col-lg-5  col-sm-9 shadow rounded-4 m-2">
+        <div class="card_body bg-body-tertiary rounded-4">
+            <div class="card_img border rounded-4 border-bottom-3 ">
+                <img src="./img/straw hat.jpeg" alt=""  class="col-12 rounded-4" style="height: 250px;">
+            </div>
+            <div class="card_title text-primary fw-bold m-2">
+                <h2>Straw Hat</h2>
+            </div>
+            <div class="card-text fw-bold m-2">$80</div>
+            <div class="card-text m-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing el
+                
+            </div>
+            
+        
+            <br>
+            <div class="button">
+            <button type="button" id="btn21" class="btn btn-primary m-2">Add to cart</button>
+            <button type="button" id="ebtn21" class="btn btn-close btn-danger text-dark m-2"></button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+<br>
+<br>
+<br>
+<center>
+<hr class="col-11 text-center text-dark-emphasis ">
+</center>
+<table class="col-12 text-light" id="footer_table">
+    <tr>
+        <td id="td1" ><h1>AMOX</h1></td>
+        <td> 
+            <h3> Contact</h3><br>
+            <br>
+            <br>
+            09061128600 <br><br>
+            leofazzy98@gmail.com <br><br>
+            No.40 psychiatric Hospital Road, Rumuigbo, Port Harcourt <br><br>
+            @amox.code <br><br>
+
+
+        </td>
+        <td id="td2">
+            <form action="amox2498@gmail.com" method="post" class="form-control bg-secondary border-secondary">
+                <h4 class="text-light">Feedback</h4>
+                <!-- <center> -->
+                <label for="name" class="text-light">Fullname :</label>
+                <input type="text" name="name" id="">
+                <br>
+                <label for="email" class="text-light">Email :</label>
+                <input type="text" name="email" id="">
+                <br>
+                <p class="text-light">Please enter your feedback here</p>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            <!-- </center> -->
+            </form>
+        </td>
+    </tr>
+</table>
+<center>
+<hr class="col-11 text-center text-dark-emphasis ">
+</center>
+<br>
+<center>
+    <small class="text-light">Copyright AMOX &copy;</small>
+</center>
+<br>
+
+        
+    </div>
+
+    
+    <div class=" bg-secondary-subtle " id="record" >
+        <div class="bg-info text-center fs-2 ">CART</div>
+        <div id="cart">
+
+            $<span class="card-footer" id="display"></span>
+        </div>
+    </div>
+</div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

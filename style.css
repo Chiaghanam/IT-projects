@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.twin{
+
+    align-self: center;
+    margin-left: 40px;
+    /* margin: auto 0px auto 70px; */
+    
+}
+#record{
+    position: fixed;
+    top:70px;
+    right: 20px;
+    height: 50vh;
+    width:350px;
+    overflow: auto;
+    border-radius: 20px;
+    display: none;
+}
+.sub-nav{
+    position: fixed;
+    top:30px;
+    background: linear-gradient(rgba(176, 219, 234,0.1), lightblue);
+    width: 100px; 
+    height: 100vh;
+    font-size: 30px;
+    display: none;
+    z-index: 300;
+    
+}
+.sub-nav ul{
+    list-style: none;
+    position: relative;
+    right: 2px;
+   
+}
+.sub-nav ul li{
+    padding: 15px;
+    margin-top: 30px;
+}
+.nav-item{
+    position: relative;
+}
+@media (max-width:767px)  {
+    #record{
+        position: fixed;
+        top:70px;
+        right: 15px;
+        height: 50vh;
+        width:250px;
+        overflow: auto;
+        border-radius: 20px;
+        display: none;
+    }
+    .sub-nav{
+        position: fixed;
+        top:30px;
+        background: linear-gradient(rgba(176, 219, 234,0.1), lightblue);
+        width: 60px; 
+        height: 100vh;
+        font-size: 30px;
+        display: none;
+        z-index: 300;
+        
+    }
+    .sub-nav ul{
+        list-style: none;
+        position: relative;
+        left: -38px;
+       
+    }
+    
+}
+@media (max-width:300px)  {
+    .card-text{
+        font-size: 12px;
+    }
+    .card_title h2{
+        font-size: 15px;
+    }
+    #record{
+        position: fixed;
+        top:70px;
+        right: 5px;
+        height: 50vh;
+        width:200px;
+        overflow: auto;
+        border-radius: 20px;
+        display: none;
+    }
+
+}
+
+#count{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: red;
+
+}
+#coun{
+    text-align: center;
+    color: aliceblue;
+    margin-top: -15px;
+    padding: 5px;
+}
+.card .card_body{
+    height: 500px;
+}
+.card_img{
+    height: 250px;
+}
+#cartbutton{
+    cursor: pointer;
+}
+.button{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.card{
+   margin: auto,300px,auto,300px;
+}
+hr{
+    height: 2px;
+    background-color: rgb(2, 2, 75);
+    
+}
+#footer_table td{
+   
+    padding: 18px;
+    
+}
+#td1{
+    border-right:1px solid black ;
+}
+#td2{
+    border-left:1px solid black ;
+}
+#footer_table td form label{
+    font-weight: bold;
+    font-size: 18px;
+}
+#footer_table td form input {
+    margin: 15px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px inset black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: azure;
+    
+}
+#footer_table td form textarea{
+    overflow: auto;
+}
